@@ -30,11 +30,13 @@ const spanY = document.querySelector("div#eben h3 span#y");
 var previousMousePos = { x: null, y: null };
 document.addEventListener("mousemove", (e) => {
     let { screenX, screenY } = e;
+    let delta_x = Math.abs(screenX - previousMousePos.x)
+    let delta_y = Math.abs(previousMousePos.y - screenY)
     if (previousMousePos.x === null && previousMousePos.y === null) {
         previousMousePos = { x: screenX, y: screenY };
-    } else if ((previousMousePos.x - screenX) % 100 === 0) {
+    } else if ((delta_x % 100 >= 0 && delta_x > 100) && (delta_x % 100 <= 2)) {
         previousMousePos.x = screenX;
-    } else if ((previousMousePos.y - screenY) % 100 === 0) {
+    } else if ((delta_y % 100 >= 0 && delta_y > 100) && (delta_y % 100 <= 2)) {
         previousMousePos.y = screenY;
     }
     console.log(previousMousePos);
