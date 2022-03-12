@@ -1,17 +1,37 @@
 (<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ebenezer's Task</title>
-</head>
-<body>
-    <h1>Ebenezer Just wan stress me with this dom task but it is fine</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ebenezer's Task</title>
+        <style>
+            * {
+                padding: 5px;
+                margin: 0px;
+                font-family: "Calibri Light";
+            }
+            body {
+                background-color: rgba(1, 21, 185, 0.75);
+                height: fit-content;
+            }
+            div#eben {
+                background: rgba(255, 255, 255, 0.1);
+                width: fit-content;
+                border-radius: 2px;
+            }
+            h3 span {
+                font-weight: 200;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Ebenezer Just wan stress me with this dom task but it is fine</h1>
+        <div id="eben">
+            <h3>X: <span id="x"></span></h3>
+            <h3>Y: <span id="y"></span></h3>
+        </div>
+    </body>
 
-    <p id="eben"></p>
-</body>
-
-
-<script src="ebenezer.js"></script>
+    <script src="document_object_model.js"></script>
 </html>
