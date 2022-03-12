@@ -98,4 +98,4 @@ The delta_x and delta_y variables are basically just to compute the changes. I a
 ...
 ```
 
-## Thanks to @Z-box for assisting greatly on this task!
+## Thanks to @Z-box for assisting greatly on this task! A link to his page [Z-Box](https://github.com/E-Zbox)
