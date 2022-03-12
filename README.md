@@ -11,6 +11,8 @@ The purpose of this repository is to document my progress in Learning Javascript
 I am currently being mentored by a friend Ebenezer, who gives me tasks to work on.
 This repository would contain my attempts to the tasks he gives me.
 
+## Updated README by Ebenezer.
+
 ## Cloning and running application 💻
 
 > git clone https://github.com/E-Zbox/Journey_to_learn_NODEJs.git
